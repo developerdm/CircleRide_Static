@@ -1,0 +1,58 @@
+.autocomplete input
+{
+border: 1px solid #A0A0A0;
+border-radius: 3px;
+padding: 7px 10px 7px 10px;
+/* margin-bottom: 15px; */
+font-family: inherit;
+font-size: 14px !important;
+/* width: 260px; */
+}
+
+ul.autocomplete {
+  font-size: 14px;
+  width: 400px;
+  height: 24px;
+  display:block;
+  margin: 0;
+  padding: 2px;
+  -moz-border-radius: 4px; 
+  -webkit-border-radius: 4px; 
+  border-radius: 4px;
+  background-color:#EEEEEE;
+  border: 1px solid #DDDDDD;
+  max-height: 200px;
+  overflow-y: scroll;
+  text-align:left;
+  z-index:9999;
+}
+ul.autocomplete li{
+  padding: 0;
+  cursor:default;
+  border:1px solid #EEEEEE;
+  -moz-border-radius: 4px; 
+  -webkit-border-radius: 4px; 
+  border-radius: 4px;
+  list-style: none outside none;
+}
+ul.autocomplete li.hover{
+  /*
+  border:1px solid #FFA5A5;
+  background-color:#FFE0E0;
+  */
+  border: 1px solid #999999; 
+  background: #dadada url(images/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x; 
+  font-weight: normal; 
+  color: #212121;
+}
+ul.autocomplete li a{
+  display:block;
+  cursor:default;
+  width:100%;
+  text-decoration: none;
+  outline: medium none;
+  -moz-border-radius: 4px; 
+  -webkit-border-radius: 4px; 
+  border-radius: 4px;
+  color: #333333;
+}
